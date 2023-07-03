@@ -1,0 +1,79 @@
+body{
+    
+   
+    background-image: url("https://images.ctfassets.net/k0lk9kiuza3o/272W394TWuaWIn7rriaLjY/801cb46ce15f7d3c0edd30b059722731/calendly-for-enterprise.png?w=1920&h=1080&q=85&fm=png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(lightcoral,rgb(116, 96, 245)); */
+}
+
+form{
+    margin-left:20px;
+}
+
+#first-head{
+    padding-top:10px;
+}
+
+#wrap{
+    height:100%;
+    border-radius: 5px;
+    background:linear-gradient(lightgrey,cornflowerblue);
+    width: 40%;
+    margin-left: 30%;
+    font-size:17px;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom:25px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Jost', sans-serif !important;
+}
+
+input[type="text"],input[type="email"],input[type="date"],input[type="submit"],select,button{
+    height: 25px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Jost', sans-serif !important;
+    font-size: medium;
+}
+
+label{
+    font-weight: 500;
+}
+
+table{
+    border-spacing: 15px;
+}
+hr{
+    width: 100px;
+    border-top: 9px dotted rgba(119, 155, 222, 0.714);
+    border-bottom: none;
+    border-right: none;
+    border-left: nones;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    margin-left:13%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"],button{
+    margin-top: 5px;
+    margin-bottom:15px;
+    font-weight: bold;
+}
+
+input:hover,button:hover{
+    background-color:lightgray;
+}
+#little-margin{
+    margin-left: 14px;
+    margin-top:10px;
+}
+#table2{
+    margin-bottom:9px;
+}

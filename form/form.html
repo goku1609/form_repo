@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <h1 class="heading" id="first-head">Registration Form</h1>
+        <form action="" method="get">
+            <h2 class="heading">Personal Details</h2>
+            <table id="table1">
+                <tr>
+                    <td>
+                        <label>First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="firstname" name="fname" placeholder="Enter your first name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lastname" name="lname" placeholder="Enter your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" id="dob" name="dbirth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="xyz@something.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Contact Number</label>
+                    </td>
+                    <td>
+                        <input type="text" id="number" name="number" placeholder="+91xxxxxxxxxx">
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h2 class="heading">Educational Qualification</h2>
+            <table id="table2">
+                <tr>
+                    <td>
+                        <label>Graduation</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="grad">UnderGraduate
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- nothing -->
+                    </td>
+                    <td><input type="radio" name="grad">PostGraduate</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>College/University </label>
+                    </td>
+                    <td>
+                        <input type="text" id="college" placeholder="Enter your College/University name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Course Name</label>
+                    <td>
+                        <input type="checkbox" name="btech">Bachelor of Technology(B.Tech)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Nothing -->
+                    </td>
+                    <td>
+                        <input type="checkbox" name="bca">Bachelor of Computer Applications(BCA)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Nothing -->
+                    </td>
+                    <td>
+                        <input type="checkbox" name="be">Bachelor of Engineering(BE)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Specialization</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option disabled>Select your Branch</option>
+                            <option>Electronis&Communication(EC)</option>
+                            <option>Computer Science(CS)</option>
+                            <option>Information Technology(IT)</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <label id="little-margin">Interested in Web Development?</label>
+            <input type="radio" name="choose">Yes
+            <input type="radio" name="choose">No
+
+            <table class="table2">
+                <tr>
+                    <td>
+                        <label>If Yes, then Choose your domain</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option disabled>Select your domain</option>
+                            <option>Front-end Developer</option>
+                            <option>Back-end Developer</option>
+                            <option>MERN Stack Developer</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+            <button>Reset</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
